@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+}
+
+.container{
+    width: 500px;
+    height: 200px;
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .smilek{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #fff;
+}
+.container .stars{
+    width: 250px;
+    height: 50px;
+    border: 1px solid #fff;
+}
